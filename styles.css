@@ -26,9 +26,9 @@ body{
 	background-color:white;
 }
 .column{
-	width:1220px;
-	padding-left: 20px;
-    padding-top: 30px;
+	width:100%;
+	padding-left: 5%;
+    padding-top: 5%;
 }
 
 #left_col {
@@ -52,7 +52,7 @@ body{
 }
 
 
-.email{
+.contact{
 	float: right;
 	color: black;
 
