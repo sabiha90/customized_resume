@@ -1,17 +1,12 @@
 body{
-	font-family: Helvetica;
+	font-family: verdana;
 	font-size: 14px;
-	width:8.5in;
-	height: 11in;
-	margin: auto;
 }
 
 #resume_name{
 	margin: 2 0;
-	font-size: 2.25em;
-	font-weight: bold;
+	font-size: 2em;
 	text-align: center;
-	color: #0072b1;
 }
 
 #resume_title{
@@ -23,28 +18,45 @@ body{
 .fa{
 	color: #0072b1;
 	text-align: left;
+	size:100px;
 }
 
-#contacts_div{
-	color:#0072b1;
-	margin: 2 auto;
+#header {
+  background-color: #0072b1;
+  width: 100%;
+  color: white;
+  padding: 0 0 0.5% 0;
+}
+
+#desc{
+	width: 98%;
+	margin: 0 auto;
+}
+
+#hr_desc{
+	height:2px;
+	width:100%;
+	background-color:white;
+}
+
+#left_col {
+   float:left;
+   width:30%;  
+ }
+
+#right_col {
+   float:right;
+   width:70%;   
+}
+
+.contact_div{
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
+    align-items: center;
+	margin: 2% 0;
 }
 
-.contact_div {
-	margin: 2 10;
-	vertical-align: middle;
-}
-
-.contact_div a{
-    color: #0072b1;
-}
-
-a{
-    color: black;
+.contact_icon{
+	width:10%;
 }
 
 .envelope_icon{
@@ -52,7 +64,7 @@ a{
 }
 
 .mobile_icon{
-	font-size: 1.5em;
+	font-size: 1.75em;
 }
 
 .map_icon{
@@ -67,17 +79,20 @@ a{
 	font-size: 1.25em;
 }
 
+.contact{
+	padding: 0 10;
+}
+
 .resume_section{
-	margin: 12 3px;
-	text-align: justify;
+	margin: 2%;
 }
 
 .section_header{
-	margin: 5 0 2 0px;
+	margin: 2% 0 1% 0;
 }
 
 .section_header p{
-	font-size: 1.25em;
+	font-size: 1.5em;
 	font-weight: bold;
 	color: #0072b1;
 	margin:2px;
@@ -85,21 +100,13 @@ a{
 
 .section_header hr{
 	height:2px;
+	width:100%;
 	background-color:#0072b1;
-	border:none;
 	margin: 0;
 }
 
-.section_p{
-	margin: 2 0;
-}
-
-ul{
-	margin: 5 0;
-}
-
 .section_content{
-	margin: 8 0px;
+	margin: 0 2%;
 }
 
 .sub_section_title{
@@ -107,25 +114,16 @@ ul{
 }
 
 .sub_section_sub_title{
-	font-weight: normal;
+	font-weight: bold;
 }
 
 .background_highlight{
-	border-radius: 5px;
-	background: #0072b1;
-	padding: 5;
-	display: inline-block;
-	margin: 2;
-	color: white;
-}
-
-.border_highlight{
-	border-radius: 5px;
-	border: 2px solid;
-	border-color: #0072b1;
-	padding: 5;
-	display: inline-block;
-	margin: 2;
+  border-radius: 5px;
+  background: #0072b1;
+  padding: 2%;
+  display: inline-block;
+  margin: 2%;
+  color: white;
 }
 
 .right_header{
@@ -145,6 +143,3 @@ ul{
 	font-style: italic;
 }
 
-.less_margin_p{
-	margin: 2 0px;
-}
