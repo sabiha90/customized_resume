@@ -1,0 +1,145 @@
+body{
+	font-family: verdana;
+	font-size: 14px;
+}
+
+#resume_name{
+	margin: 2 0;
+	font-size: 2em;
+	text-align: center;
+}
+
+#resume_title{
+	margin: 2 0;
+	font-size: 1.5em;
+	text-align: center;
+}
+
+.fa{
+	color: #0072b1;
+	text-align: left;
+	size:100px;
+}
+
+#header {
+  background-color: #0072b1;
+  width: 100%;
+  color: white;
+  padding: 0 0 0.5% 0;
+}
+
+#desc{
+	width: 98%;
+	margin: 0 auto;
+}
+
+#hr_desc{
+	height:2px;
+	width:100%;
+	background-color:white;
+}
+
+#left_col {
+   float:left;
+   width:30%;  
+ }
+
+#right_col {
+   float:right;
+   width:70%;   
+}
+
+.contact_div{
+	display: flex;
+    align-items: center;
+	margin: 2% 0;
+}
+
+.contact_icon{
+	width:10%;
+}
+
+.envelope_icon{
+	font-size: 1em;
+}
+
+.mobile_icon{
+	font-size: 1.75em;
+}
+
+.map_icon{
+	font-size: 1.25em;
+}
+
+.github_icon{
+	font-size: 1.25em;
+}
+
+.linkedin_icon{
+	font-size: 1.25em;
+}
+
+.contact{
+	padding: 0 10;
+}
+
+.resume_section{
+	margin: 2%;
+}
+
+.section_header{
+	margin: 2% 0 1% 0;
+}
+
+.section_header p{
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #0072b1;
+	margin:2px;
+}
+
+.section_header hr{
+	height:2px;
+	width:100%;
+	background-color:#0072b1;
+	margin: 0;
+}
+
+.section_content{
+	margin: 0 2%;
+}
+
+.sub_section_title{
+	font-size: 1.25em;
+}
+
+.sub_section_sub_title{
+	font-weight: bold;
+}
+
+.background_highlight{
+  border-radius: 5px;
+  background: #0072b1;
+  padding: 2%;
+  display: inline-block;
+  margin: 2%;
+  color: white;
+}
+
+.right_header{
+	text-transform: uppercase;
+	padding: 0;
+	margin: 0;
+	color: #0072b1;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.right_align{
+	float: right;
+}
+
+.italicized{
+	font-style: italic;
+}
+

@@ -1,137 +1,89 @@
 body{
-	font-family: verdana;
+	font-family: "Helvetica";
+	margin: 0 auto;
 }
 
-.desc {
-  background-color: #008080;
-  width: 1200px;
-  height: 100px;
-  padding-top:30px;
-  padding-bottom: 40px;
-  padding-right:20px;
- 
+#resume_name{
+	margin: 2 0;
+	text-align: center;
 }
 
-.name {
-	padding-left: 20px;
-	color: white;
-}
-
-.hr_1{
-	height:2px;
-	width:30%;
-	text-align: left;
-	margin: 5 0 7 0;
-	color:white;
-	background-color:white;
-}
-.column{
-	width:1220px;
-	padding-left: 20px;
-    padding-top: 30px;
-}
-
-#left_col {
-   float:left;
-   width:30%;
-   height: 300px;
-  
- }
-#right_col {
-   float:right;
-   width:70%;
-   height: 300px;
-   
+#resume_title{
+	margin: 2 0;
+	text-align: center;
 }
 
 .fa{
-	color: teal;
 	text-align: left;
-	size:100px;
-	padding: 10px 0;
 }
 
+#contacts_div{
+	margin: 2 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
 
-.email{
-	float: right;
+.contact_div {
+	margin: 2 10;
+	vertical-align: middle;
+}
+
+.contact {
+	margin: auto 5;
+}
+
+a{
 	color: black;
-
-	font-size: 14px;
-	font-family: verdana;	
-	padding: 5 0 5 10;
 }
 
-.technical{
-	
-	font-size: 20px;
-	font-weight: bold;
-	color: teal;
-	margin-bottom:3px;
+.envelope_icon{
+	font-size: 1em;
 }
 
-.hr_2{
+.mobile_icon{
+	font-size: 1.40em;
+}
+
+.map_icon{
+	font-size: 1.25em;
+}
+
+.github_icon{
+	font-size: 1.25em;
+}
+
+.linkedin_icon{
+	font-size: 1.25em;
+}
+
+.resume_section{
+	text-align: justify;
+}
+
+hr{
 	height:2px;
-	width:70%;
-	text-align: left;
-	margin:0;
-	color:white;
-	background-color:teal;
-	margin-bottom: 20px;
-
+	border:none;
+	margin: 2 0;
 }
 
-.hr_3{
-	height:2px;
-	text-align: left;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	color:white;
-	background-color:teal;
-	
-
+.section_header{
+	margin: 5 0;
 }
 
-.skills{
-
-  border-radius: 10px;
-  background: teal;
-  padding: 10px;
-  display: inline-block;
-  margin: 0 5 5 0;
-  color: white;
-  font-size: 14px;
-}
-
-.right_header{
-	text-transform: uppercase;
-	padding: 0;
-	margin: 0;
-	color: teal;
-	font-weight: bold;
-	font-size: 20px;
-}
-
-.date{
-	float: right;
-	font-style: italic;
+p{
+	margin: 2 0;
 }
 
 ul{
-	margin: 10; 
-	padding: 0 10 5 10;
-}
-.lists{
-	list-style-type: square;
-	
+	margin: 5 0;
 }
 
-.font_class{
-	font-size: 14px;
-	margin: 5 0 5 5;
-
+.right_align{
+	float: right;
 }
 
-.undergrad{
-	margin: 10 0 10 5;
+.italicized{
+	font-style: italic;
 }
-
