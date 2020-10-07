@@ -1,32 +1,23 @@
 body{
-	font-family: Helvetica;
-	font-size: 14px;
-	width:8.5in;
-	height: 11in;
-	margin: auto;
+	font-family: "Helvetica";
+	margin: 0 auto;
 }
 
 #resume_name{
 	margin: 2 0;
-	font-size: 2.25em;
-	font-weight: bold;
 	text-align: center;
-	color: #0072b1;
 }
 
 #resume_title{
 	margin: 2 0;
-	font-size: 1.5em;
 	text-align: center;
 }
 
 .fa{
-	color: #0072b1;
 	text-align: left;
 }
 
 #contacts_div{
-	color:#0072b1;
 	margin: 2 auto;
 	display: flex;
 	justify-content: center;
@@ -39,12 +30,12 @@ body{
 	vertical-align: middle;
 }
 
-.contact_div a{
-    color: #0072b1;
+.contact {
+	margin: auto 5;
 }
 
 a{
-    color: black;
+	color: black;
 }
 
 .envelope_icon{
@@ -52,7 +43,7 @@ a{
 }
 
 .mobile_icon{
-	font-size: 1.5em;
+	font-size: 1.40em;
 }
 
 .map_icon{
@@ -68,73 +59,25 @@ a{
 }
 
 .resume_section{
-	margin: 12 3px;
 	text-align: justify;
 }
 
-.section_header{
-	margin: 5 0 2 0px;
-}
-
-.section_header p{
-	font-size: 1.25em;
-	font-weight: bold;
-	color: #0072b1;
-	margin:2px;
-}
-
-.section_header hr{
+hr{
 	height:2px;
-	background-color:#0072b1;
 	border:none;
-	margin: 0;
+	margin: 2 0;
 }
 
-.section_p{
+.section_header{
+	margin: 5 0;
+}
+
+p{
 	margin: 2 0;
 }
 
 ul{
 	margin: 5 0;
-}
-
-.section_content{
-	margin: 8 0px;
-}
-
-.sub_section_title{
-	font-size: 1.25em;
-}
-
-.sub_section_sub_title{
-	font-weight: normal;
-}
-
-.background_highlight{
-	border-radius: 5px;
-	background: #0072b1;
-	padding: 5;
-	display: inline-block;
-	margin: 2;
-	color: white;
-}
-
-.border_highlight{
-	border-radius: 5px;
-	border: 2px solid;
-	border-color: #0072b1;
-	padding: 5;
-	display: inline-block;
-	margin: 2;
-}
-
-.right_header{
-	text-transform: uppercase;
-	padding: 0;
-	margin: 0;
-	color: #0072b1;
-	font-weight: bold;
-	font-size: 20px;
 }
 
 .right_align{
@@ -143,8 +86,4 @@ ul{
 
 .italicized{
 	font-style: italic;
-}
-
-.less_margin_p{
-	margin: 2 0px;
 }

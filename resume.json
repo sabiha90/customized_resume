@@ -1,0 +1,386 @@
+{
+    "fontFamily":"Helvetica",
+    "fontSize":14,
+    "color":"#0072b1",
+    "resumeSection":{
+        "gap": 8,
+        "headerRelativeFontSize":1.25,
+        "headerUpperCase":true
+    },
+    "resumeSubSection":{
+        "gap": 8,
+        "titleRelativeFontSize":1.25,
+        "subTitleRelativeFontSize":1.25
+    },
+    "name":{
+        "text":"Name",
+        "relativeFontSize":2.25,
+        "bold":true,
+        "italics":false
+    },
+    "title":{
+        "text":"",
+        "relativeFontSize":1.25,
+        "bold":false,
+        "italics":false
+    },    
+    "contact_info":{
+        "email":"email@gmail.com",
+        "phone":"+1 (000) 000-0000",
+        "location":"City",
+        "github":"github-id",
+        "linkedin":"linkedin-id"
+    },
+    "sections":[
+        {
+            "title":{
+                "text":"Work Experience",
+                "bold":true,
+                "italics":false
+            },
+            "sub_sections":[
+                {
+                    "heading":{
+                        "left":{
+                            "text":"Company",
+                            "bold":true,
+                            "italics":false
+                        },
+                        "center":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "right":{
+                            "text":"Location",
+                            "bold":true,
+                            "italics":false
+                        }
+                    },
+                    "sub_heading":{
+                        "left":{
+                            "text":"Job Title",
+                            "bold":false,
+                            "italics":true
+                        },
+                        "center":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "right":{
+                            "text":"Time Period",
+                            "bold":false,
+                            "italics":false
+                        }
+                    },
+                    "desc":"Job desc, duties, etc -etc - etc",
+                    "bullets":true,
+                    "bullets_column": 1,
+                    "points":[
+                        "bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point.",
+                        "bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point.",
+                        "bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point.",
+                        "bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point."
+                    ]
+                },
+                {
+                    "heading":{
+                        "left":{
+                            "text":"Company",
+                            "bold":true,
+                            "italics":false
+                        },
+                        "center":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "right":{
+                            "text":"Location",
+                            "bold":true,
+                            "italics":false
+                        }
+                    },
+                    "sub_heading":{
+                        "left":{
+                            "text":"Job Title",
+                            "bold":false,
+                            "italics":true
+                        },
+                        "center":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "right":{
+                            "text":"Time Period",
+                            "bold":false,
+                            "italics":false
+                        }
+                    },
+                    "desc":"Job desc, duties, etc -etc - etc",
+                    "bullets":true,
+                    "bullets_column": 1,
+                    "points":[
+                        "bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point.",
+                        "bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point.",
+                        "bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point.",
+                        "bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point."
+                    ]
+                }
+            ]
+        },
+        {
+            "title":{
+                "text":"Skills",
+                "bold":true,
+                "italics":false
+            },
+            "sub_sections":[
+                {
+                    "heading":{
+                        "left":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "center":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "right":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        }
+                    },
+                    "sub_heading":{
+                        "left":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "center":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "right":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        }
+                    },
+                    "desc":"",
+                    "bullets":false,
+                    "bullets_column": 2,
+                    "points":[
+                        "<b>Col:</b> Skills skills skills skills skills",
+                        "<b>Col:</b> Skills skills skills skills skills"
+                    ]
+                }
+            ]
+        },
+        {
+            "title":{
+                "text":"Projects",
+                "bold":true,
+                "italics":false
+            },
+            "sub_sections":[
+                {
+                    "heading":{
+                        "left":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "center":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "right":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        }
+                    },
+                    "sub_heading":{
+                        "left":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "center":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "right":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        }
+                    },
+                    "desc":"",
+                    "bullets":true,
+                    "bullets_column": 1,
+                    "points":[
+                        "Project description - achievement. Project description - achievement. Project description - achievement. Project description - achievement. Project description - achievement.",
+                        "Project description - achievement. Project description - achievement. Project description - achievement. Project description - achievement. Project description - achievement."
+                    ]
+                }
+            ]
+        },
+        {
+            "title":{
+                "text":"Education",
+                "bold":true,
+                "italics":false
+            },
+            "sub_sections":[
+                {
+                    "heading":{
+                        "left":{
+                            "text":"Institute",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "center":{
+                            "text":"Degree",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "right":{
+                            "text":"Location",
+                            "bold":false,
+                            "italics":false
+                        }
+                    },
+                    "sub_heading":{
+                        "left":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "center":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "right":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        }
+                    },
+                    "desc":"",
+                    "bullets":true,
+                    "bullets_column": 1,
+                    "points":[
+                        "achievements at institute. achievements at institute. achievements at institute. achievements at institute.",
+                        "achievements at institute. achievements at institute. achievements at institute. achievements at institute."
+                    ]
+                },
+                {
+                    "heading":{
+                        "left":{
+                            "text":"Institute",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "center":{
+                            "text":"Degree",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "right":{
+                            "text":"Location",
+                            "bold":false,
+                            "italics":false
+                        }
+                    },
+                    "sub_heading":{
+                        "left":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "center":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "right":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        }
+                    },
+                    "desc":"",
+                    "bullets":true,
+                    "bullets_column": 1,
+                    "points":[
+                        "achievements at institute. achievements at institute. achievements at institute. achievements at institute.",
+                        "achievements at institute. achievements at institute. achievements at institute. achievements at institute."
+                    ]
+                }
+            ]
+        },
+        {
+            "title":{
+                "text":"Publications",
+                "bold":true,
+                "italics":false
+            },
+            "sub_sections":[
+                {
+                    "heading":{
+                        "left":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "center":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "right":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        }
+                    },
+                    "sub_heading":{
+                        "left":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "center":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        },
+                        "right":{
+                            "text":"",
+                            "bold":false,
+                            "italics":false
+                        }
+                    },
+                    "desc":"",
+                    "bullets":true,
+                    "bullets_column": 1,
+                    "points":[
+                        "Publications - publications - Publications - publications - Publications - publications - Publications - publications - Publications - publications",
+                        "Publications - publications - Publications - publications - Publications - publications - Publications - publications - Publications - publications"
+                    ]
+                }
+            ]
+        }
+    ]
+}

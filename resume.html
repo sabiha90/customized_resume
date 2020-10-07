@@ -1,12 +1,99 @@
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="styles.css">
+		<style>
+			body{
+				margin: auto;
+				width:8.5in;
+			}
+
+			#resume_name{
+				margin: 2 0;
+				text-align: center;
+			}
+
+			#resume_title{
+				margin: 2 0;
+				text-align: center;
+			}
+
+			.fa{
+				text-align: left;
+			}
+
+			#contacts_div{
+				margin: 2 auto;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-wrap: wrap;
+			}
+
+			.contact_div {
+				margin: 2 10;
+				vertical-align: middle;
+			}
+
+			a{
+				color: black;
+			}
+
+			.envelope_icon{
+				font-size: 1em;
+			}
+
+			.mobile_icon{
+				font-size: 1.5em;
+			}
+
+			.map_icon{
+				font-size: 1.25em;
+			}
+
+			.github_icon{
+				font-size: 1.25em;
+			}
+
+			.linkedin_icon{
+				font-size: 1.25em;
+			}
+
+			.resume_section{
+				text-align: justify;
+			}
+
+			hr{
+				height:2px;
+				border:none;
+				margin: 2 0;
+			}
+
+			.section_header{
+				margin: 5 0;
+			}
+
+			p{
+				margin: 2 0;
+			}
+
+			ul{
+				margin: 5 0;
+			}
+
+			.right_align{
+				float: right;
+			}
+
+			.italicized{
+				font-style: italic;
+			}
+		</style>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body>
 		<div id="header">
 			<p id="resume_name">Name</p>
+			<p id="resume_title"></p>
 			<div id="contacts_div">
 				<div class="contact_div">
 					<span class="envelope_icon"><span class="fa fa-envelope"> </span></span> <span class="contact"> <a href="mailto:email@gmail.com">email@gmail.com</a></span>
@@ -25,91 +112,89 @@
 				</div>				
 			</div>
 		</div>
-		<div id="right_col">
-			<div class="resume_section">
-				<div class="section_header">
-					<p> WORK EXPERIENCE </p>
-					<hr></hr>
-				</div>
-				<div class="section_content"> 
-					<span class="sub_section_title">Company</span> <span class="right_align italicized"> Location</span>
-					<br>
-					<span class="sub_section_sub_title">Job_Title</span> <span class="right_align italicized"> Time Period</span>
-					<p class="section_p">Job desc, duties, etc -etc - etc</p>
-					<ul class="lists">
-						<li> bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - .</li>
-						<li> bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - .</li>
-						<li>bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - .</li>
-						<li> bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - .</li>
-						<li> bullet point - bullet point - bullet point - bullet point - bullet point - .</li>
-					</ul>
-				</div>
-				<div class="section_content"> 
-					<span class="sub_section_title">Company</span> <span class="right_align italicized"> Location</span>
-					<br>
-					<span class="sub_section_sub_title">Job Title</span> <span class="right_align italicized"> Time Period</span>
-					<ul class="lists">
-						<li> bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - .</li>
-						<li> bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - .</li> 
-						<li> bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - .</li>
-						<li> bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - .</li>
-					</ul>
-				</div>
+		<div class="resume_section">
+			<div class="section_header">
+				<p> WORK EXPERIENCE </p>
+				<hr></hr>
 			</div>
-			<div class="resume_section">
-				<div class="section_header">
-					<p class="right_header"> SKILLs </p>
-					<hr class="hr_3"></hr>
-				</div>
-				<div class="section_content_word">
-					<p class="less_margin_p">Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill</p>
-				</div>
+			<div class="section_content"> 
+				<span class="sub_section_title">Company</span> <span class="right_align italicized"> Location</span>
+				<br>
+				<span class="sub_section_sub_title">Job_Title</span> <span class="right_align italicized"> Time Period</span>
+				<p class="section_p">Job desc, duties, etc -etc - etc</p>
+				<ul class="lists">
+					<li> bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - .</li>
+					<li> bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - .</li>
+					<li>bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - .</li>
+					<li> bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - .</li>
+					<li> bullet point - bullet point - bullet point - bullet point - bullet point - .</li>
+				</ul>
 			</div>
-			<div class="resume_section">
-				<div class="section_header">
-					<p class="right_header"> Projects </p>
-					<hr class="hr_3"></hr>
-				</div>
-				<div class="section_content">
-					<ul>
-						<li> <b>Project Title:</b> Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - </li>
-					</ul>
-				</div>
-				<div class="section_content">
-					<ul>
-						<li> <b>Project Title:</b> Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - </li>
-					</ul>
-				</div>
-				<div class="section_content">
-					<ul>
-						<li> <b>Project Title:</b> Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - </li>
-					</ul>
-				</div>
-				<div class="section_content">
-					<ul>
-						<li> <b>Project Title:</b> Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - </li>
-					</ul>
-				</div>
+			<div class="section_content"> 
+				<span class="sub_section_title">Company</span> <span class="right_align italicized"> Location</span>
+				<br>
+				<span class="sub_section_sub_title">Job Title</span> <span class="right_align italicized"> Time Period</span>
+				<ul class="lists">
+					<li> bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - .</li>
+					<li> bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - .</li> 
+					<li> bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - .</li>
+					<li> bullet point - bullet point - bullet point - bullet point - bullet point - bullet point - .</li>
+				</ul>
 			</div>
-			<div class="resume_section">
-				<div class="section_header">
-					<p> EDUCATION </p>
-					<hr></hr>
-				</div>
-				<div class="section_content"> 
-					<span class="sub_section_title">Institute</span> <span class="right_align italicized"> Location</span>
-					<br>
-					<span class="sub_section_sub_title">Degree</span> <span class="right_align italicized"> Time Period</span>
-				</div>
-				<div class="section_content"> 
-					<span class="sub_section_title">Institute</span> <span class="right_align italicized"> Location</span>
-					<br>
-					<span class="sub_section_sub_title">Degree</span> <span class="right_align italicized"> Time Period</span>
-					<div class="section_content">
-						<ul>
-							<li> bullet point - bullet point - </li> 
-						</ul>
-					</div>
+		</div>
+		<div class="resume_section">
+			<div class="section_header">
+				<p class="right_header"> SKILLs </p>
+				<hr class="hr_3"></hr>
+			</div>
+			<div class="section_content_word">
+				<p class="less_margin_p">Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill, Skill</p>
+			</div>
+		</div>
+		<div class="resume_section">
+			<div class="section_header">
+				<p class="right_header"> Projects </p>
+				<hr class="hr_3"></hr>
+			</div>
+			<div class="section_content">
+				<ul>
+					<li> <b>Project Title:</b> Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - </li>
+				</ul>
+			</div>
+			<div class="section_content">
+				<ul>
+					<li> <b>Project Title:</b> Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - </li>
+				</ul>
+			</div>
+			<div class="section_content">
+				<ul>
+					<li> <b>Project Title:</b> Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - </li>
+				</ul>
+			</div>
+			<div class="section_content">
+				<ul>
+					<li> <b>Project Title:</b> Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - Project desc - achievement - </li>
+				</ul>
+			</div>
+		</div>
+		<div class="resume_section">
+			<div class="section_header">
+				<p> EDUCATION </p>
+				<hr></hr>
+			</div>
+			<div class="section_content"> 
+				<span class="sub_section_title">Institute</span> <span class="right_align italicized"> Location</span>
+				<br>
+				<span class="sub_section_sub_title">Degree</span> <span class="right_align italicized"> Time Period</span>
+			</div>
+			<div class="section_content"> 
+				<span class="sub_section_title">Institute</span> <span class="right_align italicized"> Location</span>
+				<br>
+				<span class="sub_section_sub_title">Degree</span> <span class="right_align italicized"> Time Period</span>
+				<div class="section_content">
+					<ul>
+						<li> bullet point - bullet point - </li> 
+					</ul>
 				</div>
 			</div>
 		</div>
